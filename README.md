@@ -1,5 +1,4 @@
 # Organized tours Landing Page
-Tools: Html, Css ,JavaScript, PHP, MySQL<br/>
 To run this properly use xamppserver(place the project files in the "htdocs") or use another server.
 
 -----------------------------------------------
