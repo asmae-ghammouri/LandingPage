@@ -1,0 +1,467 @@
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(141, 177, 182);
+  border-radius: 10px;
+}
+
+.container {
+  margin: 1em;
+}
+.info {
+  background-color: brown;
+  margin: auto;
+
+  background-color: #cce7e7;
+  padding: 10px;
+  border-radius: 1%;
+  box-shadow: 0 0 20px rgb(109, 104, 104);
+}
+
+p {
+  margin-bottom: 0.8rem !important;
+}
+span {
+  font-weight: bold;
+}
+.btn {
+  border: 1px solid #1e7379 !important;
+  background: #1e7379 !important;
+  color: #fff !important;
+  margin-top: 20px !important;
+}
+/*html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./demo/css/style.css" />
+    <script src="./demo/js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="path-to-fontawesome/font-awesome.css"
+    />
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <a class="pulse" href="./demo/index.html">Home</a>
+        <a class="pulse" href="">About</a>
+        <a class="pulse" href="../about.html">Skills</a>
+        <a class="pulse" id="m" href="">Projects</a>
+        <a class="pulse" href="">Contact me</a>
+        <div class="social_medias">
+          <a
+            href="https://github.com/asmae-ghammouri"
+            title="github account"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+
+          <a
+            href="https://www.linkedin.com/in/asmae-ghammouri-442b3a192/"
+            title="linkedin account"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="menu__toggler"><span></span></div>
+    </div>
+
+    <img class="b" src="../hi.png" alt="" />
+
+    <div class="container">
+      <div class="row" id="demo">
+        <!-- For demo purpose -->
+        <h1 class="col-lg-12 mx-auto mb-5 text-center title">MY SKILLS:</h1>
+        <!-- END -->
+        <div class="col-xl-12 col-lg-12 mb-4">
+          <h2
+            style="
+              color: rgb(255, 255, 255);
+              font-size: x-large;
+              text-decoration: underline;
+            "
+          >
+            Programming:
+          </h2>
+        </div>
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="bg-white rounded-lg p-5 shadow">
+            <h2 class="h6 font-weight-bold text-center mb-4">HTML5 | CSS3</h2>
+
+            <!-- Progress bar 1 -->
+            <div class="progress mx-auto" data-value="80">
+              <span class="progress-left">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <div
+                class="
+                  progress-value
+                  w-100
+                  h-100
+                  rounded-circle
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <div class="h2 font-weight-bold">
+                  80<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+
+            <!-- END -->
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="bg-white rounded-lg p-5 shadow">
+            <h2 class="h6 font-weight-bold text-center mb-4">JS | JQUERY</h2>
+
+            <!-- Progress bar 2 -->
+            <div class="progress mx-auto" data-value="60">
+              <span class="progress-left">
+                <span class="progress-bar border-success"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-success"></span>
+              </span>
+              <div
+                class="
+                  progress-value
+                  w-100
+                  h-100
+                  rounded-circle
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <div class="h2 font-weight-bold">
+                  60<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+
+            <!-- END -->
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="bg-white rounded-lg p-5 shadow">
+            <h2 class="h6 font-weight-bold text-center mb-4">JAVA | C</h2>
+
+            <!-- Progress bar 3 -->
+            <div class="progress mx-auto" data-value="70">
+              <span class="progress-left">
+                <span class="progress-bar border-danger"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-danger"></span>
+              </span>
+              <div
+                class="
+                  progress-value
+                  w-100
+                  h-100
+                  rounded-circle
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <div class="h2 font-weight-bold">
+                  70<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+
+            <!-- END -->
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="bg-white rounded-lg p-5 shadow">
+            <h2 class="h6 font-weight-bold text-center mb-4">PHP | MYSQL</h2>
+
+            <!-- Progress bar 4 -->
+            <div class="progress mx-auto" data-value="70">
+              <span class="progress-left">
+                <span class="progress-bar border-warning"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-warning"></span>
+              </span>
+              <div
+                class="
+                  progress-value
+                  w-100
+                  h-100
+                  rounded-circle
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <div class="h2 font-weight-bold">
+                  70<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+
+            <!-- END -->
+          </div>
+        </div>
+        <div class="col-xl-12 col-lg-12 mb-4">
+          <h2
+            style="
+              color: rgb(255, 255, 255);
+              font-size: x-large;
+              text-decoration: underline;
+            "
+          >
+            Soft Skills:
+          </h2>
+        </div>
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="bg-white rounded-lg p-5 shadow">
+            <h2 class="h6 font-weight-bold text-center mb-4">
+              TEAMWORK | ORGANIZATION
+            </h2>
+
+            <!-- Progress bar 1 -->
+            <div class="progress mx-auto" data-value="70">
+              <span class="progress-left">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-primary"></span>
+              </span>
+              <div
+                class="
+                  progress-value
+                  w-100
+                  h-100
+                  rounded-circle
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <div class="h2 font-weight-bold">
+                  70<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+
+            <!-- END -->
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="bg-white rounded-lg p-5 shadow">
+            <h2 class="h6 font-weight-bold text-center mb-4">
+              PROBLEM-SOLVING | CREATIVITY
+            </h2>
+
+            <!-- Progress bar 2 -->
+            <div class="progress mx-auto" data-value="60">
+              <span class="progress-left">
+                <span class="progress-bar border-success"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-success"></span>
+              </span>
+              <div
+                class="
+                  progress-value
+                  w-100
+                  h-100
+                  rounded-circle
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <div class="h2 font-weight-bold">
+                  60<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info-->
+
+            <!-- END -->
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="bg-white rounded-lg p-5 shadow">
+            <h2 class="h6 font-weight-bold text-center mb-4">
+              FLEXIBILITY | ADABTABILITY.
+            </h2>
+
+            <!-- Progress bar 3 -->
+            <div class="progress mx-auto" data-value="75">
+              <span class="progress-left">
+                <span class="progress-bar border-danger"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-danger"></span>
+              </span>
+              <div
+                class="
+                  progress-value
+                  w-100
+                  h-100
+                  rounded-circle
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <div class="h2 font-weight-bold">
+                  75<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+
+            <!-- END -->
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="bg-white rounded-lg p-5 shadow">
+            <h2 class="h6 font-weight-bold text-center mb-4">
+              ANALYTICAL(CRITICAL) THINKING
+            </h2>
+
+            <!-- Progress bar 4 -->
+            <div class="progress mx-auto" data-value="60">
+              <span class="progress-left">
+                <span class="progress-bar border-warning"></span>
+              </span>
+              <span class="progress-right">
+                <span class="progress-bar border-warning"></span>
+              </span>
+              <div
+                class="
+                  progress-value
+                  w-100
+                  h-100
+                  rounded-circle
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <div class="h2 font-weight-bold">
+                  60<sup class="small">%</sup>
+                </div>
+              </div>
+            </div>
+            <!-- END -->
+
+            <!-- Demo info -->
+
+            <!-- END -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const toggler = document.querySelector(".menu__toggler");
+      const menu = document.querySelector(".menu");
+
+      toggler.addEventListener("click", () => {
+        toggler.classList.toggle("active");
+
+        menu.classList.toggle("active");
+      });
+    </script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-46156385-1", "cssscript.com");
+      ga("send", "pageview");
+
+      $(document).ready(function () {
+        $(".menu__toggler").click(function () {
+          $("#demo").toggle();
+        });
+      });
+    </script>
+  </body>
+</html>
