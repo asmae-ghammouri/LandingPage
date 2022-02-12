@@ -1,4 +1,4 @@
-# Organized tours Landing Page
+# Organized tours Responsive Landing Page
 To run this properly use xamppserver(place the project files in the "htdocs") or use another server.
 
 -----------------------------------------------
